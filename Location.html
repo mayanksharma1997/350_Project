@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="particles.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+    <title>Location's Info</title>
+</head>
+<body>
+    
+<!-- Content will go here -->
+   
+    
+    
+    <div class="dropdown">
+            <a href="Phase1.html"><button class="dropdown">Home</button></a>
+            
+    </div>
+    
+    <div class="dropdown">
+            <button class="dropdown">Course</button>
+            <div class="dropdown-content">
+                <a href="https://www.zybooks.com/">ZyBook</a>
+                <a href="https://app.tophat.com/login">TopHat</a>
+                <a href="https://drive.google.com/drive/folders/1AsHhIFfQ3yNE_m2z4wswRfKh77K0UH9w">Class's Drive</a>
+                <a href="https://www.w3schools.com/">W3Schools</a>
+            </div>
+    </div>
+
+    <div class="dropdown">
+          <button class="dropdown">Browser</button>
+          <div class="dropdown-content">
+                <a href="Navigator.html">Navigator</a>
+                <a href="Window.html">Window</a>
+                <a href="Screen.html">Screen</a>
+                <a href="Location.html">Location</a>
+                <a href="GeoLocation.html">Geolocation</a>
+            </div>
+    </div>
+
+    <div class="dropdown">
+            <button class="dropdown">About</button>
+            <div class="dropdown-content">
+                <a href="Contact.html">Contact Us</a>
+                <a href="About.html">About Develpor</a>
+            </div>
+    </div>
+    <br>
+    <br>
+    <div class="h1-responsive font-weight-bold text-center my-4">
+        <p><h4 class="h1-responsive font-weight-bold text-center my-4">Location</h4></p>
+    <div id="demo"></div>
+    <div>
+    <script>
+        var txt = "";
+            txt += "<p>Href: " + location.href + "</p>";
+            txt += "<p>HostName: " + location.hostname; + "</p>";
+            txt += "<p>PathName: " + location.pathname; + "</p>";
+            txt += "<p>Protocol: " + location.protocol; + "</p>";
+                document.getElementById("demo").innerHTML = txt;
+    </script>
+    </div>
+</body>
+</html>
