@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/mayanksharma1997/350_Project/issues"
   },
-  "homepage": "https://github.com/mayanksharma1997/350_Project#readme",
+  "homepage": "https://github.com/mayanksharma1997/350_Project/index.html",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^1.19.3"
